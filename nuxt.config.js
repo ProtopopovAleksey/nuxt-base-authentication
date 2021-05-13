@@ -2,6 +2,9 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   target: 'static',
+  router: {
+    base: '/nuxt-base-authentication/'
+  },
   head: {
     titleTemplate: '%s - nuxt-base-authentication',
     title: 'nuxt-base-authentication',
