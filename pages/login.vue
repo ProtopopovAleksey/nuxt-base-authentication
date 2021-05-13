@@ -37,12 +37,12 @@
       return {
         valid: false,
         passVisibility: true,
-        password: '123456',
+        password: '',
         passwordRules: [
           v => !!v || 'Password is required',
           v => (v && v.length >= 6) || 'Password must contain at least 6 characters'
         ],
-        email: 'test@test.test',
+        email: '',
         emailRules: [
           v => !!v || 'E-mail is required',
           v => /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,4})+$/.test(v) || 'E-mail must be valid'
